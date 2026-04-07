@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shirey CPA</title>
+    <meta name="description" content="Get in touch with Shirey CPA for fractional accounting services or AI consulting. Based in Breckenridge, Colorado, serving clients across the U.S.">
+    <meta property="og:title" content="Contact | Shirey CPA">
+    <meta property="og:description" content="Reach out to discuss fractional accounting or AI consulting for your organization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shirey-cpa.com/contact">
+    <link rel="canonical" href="https://shirey-cpa.com/contact">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">Shirey CPA</a>
+            <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/ai-consulting">AI Consulting</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <h1>Get in Touch</h1>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact-section">
+        <div class="contact-grid">
+
+            <!-- LEFT: Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+
+                <div class="contact-info-item">
+                    <svg class="icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <div>
+                        <a href="mailto:scott@shirey-cpa.com">scott@shirey-cpa.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <svg class="icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <div>
+                        <p>Breckenridge, Colorado</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <svg class="icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    <div>
+                        <a href="https://linkedin.com/in/scottshireycpa" target="_blank" rel="noopener">linkedin.com/in/scottshireycpa</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Contact Form -->
+            <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form">
+                <input type="hidden" name="form-name" value="contact">
+                <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="organization">Organization <span class="optional">(optional)</span></label>
+                    <input type="text" id="organization" name="organization">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">How can Shirey CPA help?</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Send <span>&rarr;</span></button>
+            </form>
+
+            <!-- Success message (shown after submission) -->
+            <div class="form-success" id="form-success">
+                <h3>Message Sent</h3>
+                <p>Thank you for reaching out. Scott will respond within one business day.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-brand">Shirey CPA, LLC</p>
+            <p class="footer-location">Breckenridge, Colorado</p>
+            <div class="footer-links">
+                <a href="mailto:scott@shirey-cpa.com">scott@shirey-cpa.com</a>
+                <a href="https://linkedin.com/in/scottshireycpa" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 Shirey CPA, LLC</p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle form submission with inline success message
+        const form = document.getElementById('contact-form');
+        const success = document.getElementById('form-success');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            fetch('/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
+            })
+            .then(function() {
+                form.style.display = 'none';
+                success.style.display = 'block';
+            })
+            .catch(function() {
+                form.style.display = 'none';
+                success.style.display = 'block';
+            });
+        });
+    </script>
+
+    <!-- Analytics placeholder -->
+    <!-- <script defer data-domain="shirey-cpa.com" src="https://plausible.io/js/script.js"></script> -->
+</body>
+</html>
