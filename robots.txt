@@ -1,0 +1,8 @@
+# robots.txt for shirey-cpa.com
+# Allows all search engine crawlers full access to the site
+# and points them at the canonical XML sitemap.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://shirey-cpa.com/sitemap.xml
