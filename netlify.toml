@@ -31,6 +31,27 @@
   to = "/"
   status = 301
 
+# AI consulting sub-page clean URLs
+[[redirects]]
+  from = "/ai-consulting-teams.html"
+  to = "/ai-consulting/teams"
+  status = 301
+
+[[redirects]]
+  from = "/ai-consulting/teams"
+  to = "/ai-consulting-teams"
+  status = 200
+
+[[redirects]]
+  from = "/ai-consulting-you.html"
+  to = "/ai-consulting/you"
+  status = 301
+
+[[redirects]]
+  from = "/ai-consulting/you"
+  to = "/ai-consulting-you"
+  status = 200
+
 # Custom 404
 [[redirects]]
   from = "/*"
